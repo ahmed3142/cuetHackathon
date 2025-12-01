@@ -347,9 +347,6 @@ Run the complete test suite:
 - ✅ Product deletion (DELETE)
 - ✅ Security verification (direct access blocked)
 
-### Manual Testing Guide
-
-See `MANUAL_TESTING_GUIDE.txt` for step-by-step instructions.
 
 ### Security Audit
 
@@ -366,7 +363,6 @@ curl http://localhost:3847/api/products
 docker network inspect ecommerce-network-dev
 ```
 
-Full security report available in `SECURITY_VERIFICATION.txt`.
 
 ## 📈 Monitoring & Maintenance
 
