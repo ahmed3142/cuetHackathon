@@ -130,24 +130,11 @@ cuetHackathonn/
 ├── .env.example                       
 ├── .gitignore
 ├── Makefile                   
-├── README.md                  
+├── README.md    
+├── start.ps1
+├── test.ps1              
 
 
-## 🔐 Environment Variables
-
-Create `.env` file in root directory:
-
-```env
-MONGO_INITDB_ROOT_USERNAME=admin
-MONGO_INITDB_ROOT_PASSWORD=securepassword123
-MONGO_URI=mongodb://admin:securepassword123@mongo:27017/?authSource=admin
-MONGO_DATABASE=ecommerce
-BACKEND_PORT=3847
-GATEWAY_PORT=5921
-NODE_ENV=development
-```
-
-**⚠️ Security Note**: Never commit `.env` to version control. Use `.env.example` for templates.
 
 ## 🎯 Key Features & Implementation
 
